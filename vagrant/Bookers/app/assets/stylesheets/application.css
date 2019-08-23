@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* top */
+.aleart {
+  color: green;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+header > div {
+  margin: 30px;
+}
+header > .title {
+  margin-bottom: 30px;
+}
+.title > h1 {
+  font-size: 25px;
+}
+.link {
+  color: black;
+}
+header > p {
+  margin: 30px;
+  padding-left: 30px;
+}
+a:hover {
+  color: white; background-color: black;
+}
+
+/* index */
+.show {
+  margin: 30px;
+}
+.show > h1 {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+th {
+  text-align: center;
+}
+tr > .title {
+  word-break: break-all;
+}
+tr > .body {
+  word-break: break-all;
+}
+td {
+  padding-right: 10px;
+}
+.button {
+  text-align: center;
+}
+.create {
+  margin-left: 30px;
+  position: relative;
+}
+.create > h1 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#book_title {
+  margin-bottom: 15px;
+}
+#book_body {
+  margin-bottom: 15px;
+}
+.create_button {
+  position: absolute;
+  left: 0;
+  top: 170px;
+}
+
+/* edit */
+.edit_box {
+  position: relative;
+  margin: 30px;
+}
+.edit_box > h1 {
+  margin-bottom: 10px;
+}
+.update_button {
+  position: absolute;
+  left: 0px;
+  top: 175px;
+}
+.link_box {
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+.link_box > .link {
+  float: left;
+}
+.link_box > p {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+/* show */
+.show_box {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.show_box > h5 {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.show_box > .link {
+  float: left;
+}
+.show_box > .border {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}

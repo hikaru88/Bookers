@@ -1,0 +1,15 @@
+<section>
+  <% if flash[:notice] %>
+    <div class="aleart aleart-primary"><%= flash[:notice] %></div>
+  <% end %>
+
+  <div class="show_box">
+    <h5 class="clearfix">Title:</h5>
+    <p class="clearfix"><%= @book.title %></p>
+    <h5 class="clearfix">Body:</h5>
+    <p class="clearfix"><%= @book.body %></p>
+    <a class="link" <%= link_to "Edit", edit_book_path(@book.id) %>
+    <p class="border">|</p>
+    <a class="link" <%= link_to "Back", books_path %>
+  </div>
+</section>
